@@ -1,5 +1,8 @@
 package edu.utp.pe.Diseno_Patrones.patron.observer;
 
+import edu.utp.pe.Diseno_Patrones.service.patron.observer.NotificacionAlmacen;
+import edu.utp.pe.Diseno_Patrones.service.patron.observer.NotificacionCliente;
+import edu.utp.pe.Diseno_Patrones.service.patron.observer.PedidoSubject;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

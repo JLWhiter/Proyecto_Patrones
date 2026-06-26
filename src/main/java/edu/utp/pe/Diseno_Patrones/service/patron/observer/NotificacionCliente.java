@@ -1,4 +1,4 @@
-package edu.utp.pe.Diseno_Patrones.patron.observer;
+package edu.utp.pe.Diseno_Patrones.service.patron.observer;
 
 import lombok.extern.slf4j.Slf4j;
 

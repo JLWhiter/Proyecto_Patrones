@@ -1,8 +1,9 @@
 package edu.utp.pe.Diseno_Patrones.patron.facade;
 
+import edu.utp.pe.Diseno_Patrones.service.patron.facade.SistemaPedidoFacade;
 import lombok.extern.slf4j.Slf4j;
 
-import edu.utp.pe.Diseno_Patrones.patron.strategy.PagoYape;
+import edu.utp.pe.Diseno_Patrones.service.patron.strategy.PagoYape;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 @Slf4j

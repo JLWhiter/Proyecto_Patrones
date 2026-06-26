@@ -1,26 +1,17 @@
-package edu.utp.pe.Diseno_Patrones.patron.builder;
+package edu.utp.pe.Diseno_Patrones.service.patron.builder;
 
+import lombok.Getter;
+
+@Getter
 public class Reporte {
-    private String titulo;
-    private String contenido;
-    private String autor;
+    private final String titulo;
+    private final String contenido;
+    private final String autor;
 
     private Reporte(Builder builder) {
         this.titulo = builder.titulo;
         this.contenido = builder.contenido;
         this.autor = builder.autor;
-    }
-
-    public String getTitulo() {
-        return titulo;
-    }
-
-    public String getContenido() {
-        return contenido;
-    }
-
-    public String getAutor() {
-        return autor;
     }
 
     public static class Builder {

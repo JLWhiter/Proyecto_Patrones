@@ -1,4 +1,4 @@
-package edu.utp.pe.Diseno_Patrones.patron.factory;
+package edu.utp.pe.Diseno_Patrones.service.patron.factory;
 
 import edu.utp.pe.Diseno_Patrones.exception.ValidacionException;
 import lombok.extern.slf4j.Slf4j;

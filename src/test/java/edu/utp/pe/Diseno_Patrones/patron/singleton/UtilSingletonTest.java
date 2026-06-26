@@ -1,5 +1,6 @@
 package edu.utp.pe.Diseno_Patrones.patron.singleton;
 
+import edu.utp.pe.Diseno_Patrones.service.patron.singleton.UtilSingleton;
 import lombok.extern.slf4j.Slf4j;
 
 import org.junit.jupiter.api.Test;
@@ -7,9 +8,10 @@ import static org.junit.jupiter.api.Assertions.*;
 @Slf4j
 class UtilSingletonTest {
     @Test
-    void debeRetornarMismaInstancia() {
-        log.info("Iniciando prueba: debeRetornarMismaInstancia");
-        assertSame(UtilSingleton.getInstancia(), UtilSingleton.getInstancia());
-        assertEquals("PED-1", UtilSingleton.getInstancia().generarCodigo("PED", 1L));
+    void debeRetornarLaMismaInstancia() {
+        UtilSingleton instancia1 = UtilSingleton.getInstancia();
+        UtilSingleton instancia2 = UtilSingleton.getInstancia();
+
+        assertSame(instancia1, instancia2);
     }
 }

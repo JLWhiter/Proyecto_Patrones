@@ -1,5 +1,8 @@
 package edu.utp.pe.Diseno_Patrones.patron.strategy;
 
+import edu.utp.pe.Diseno_Patrones.service.patron.strategy.PagoEfectivo;
+import edu.utp.pe.Diseno_Patrones.service.patron.strategy.PagoYape;
+import edu.utp.pe.Diseno_Patrones.service.patron.strategy.ProcesadorPago;
 import lombok.extern.slf4j.Slf4j;
 
 import org.junit.jupiter.api.Test;

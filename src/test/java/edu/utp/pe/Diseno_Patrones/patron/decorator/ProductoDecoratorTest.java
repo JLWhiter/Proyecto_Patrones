@@ -1,5 +1,9 @@
 package edu.utp.pe.Diseno_Patrones.patron.decorator;
 
+import edu.utp.pe.Diseno_Patrones.service.patron.decorator.ProductoBase;
+import edu.utp.pe.Diseno_Patrones.service.patron.decorator.ProductoConDescuento;
+import edu.utp.pe.Diseno_Patrones.service.patron.decorator.ProductoConEnvioGratis;
+import edu.utp.pe.Diseno_Patrones.service.patron.decorator.ProductoDecorator;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

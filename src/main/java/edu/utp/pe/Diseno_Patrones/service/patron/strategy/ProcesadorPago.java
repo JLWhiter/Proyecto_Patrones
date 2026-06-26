@@ -1,4 +1,4 @@
-package edu.utp.pe.Diseno_Patrones.patron.strategy;
+package edu.utp.pe.Diseno_Patrones.service.patron.strategy;
 
 import lombok.extern.slf4j.Slf4j;
 

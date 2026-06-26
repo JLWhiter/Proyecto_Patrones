@@ -1,4 +1,4 @@
-package edu.utp.pe.Diseno_Patrones.patron.decorator;
+package edu.utp.pe.Diseno_Patrones.service.patron.decorator;
 
 public class ProductoConDescuento implements ProductoDecorator {
     private final ProductoDecorator producto;

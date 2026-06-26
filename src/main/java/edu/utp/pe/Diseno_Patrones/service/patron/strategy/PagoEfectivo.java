@@ -1,4 +1,4 @@
-package edu.utp.pe.Diseno_Patrones.patron.strategy;
+package edu.utp.pe.Diseno_Patrones.service.patron.strategy;
 
 public class PagoEfectivo implements MetodoPago {
     @Override

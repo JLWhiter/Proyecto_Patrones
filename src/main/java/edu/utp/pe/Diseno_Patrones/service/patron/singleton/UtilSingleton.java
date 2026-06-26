@@ -1,4 +1,4 @@
-package edu.utp.pe.Diseno_Patrones.patron.singleton;
+package edu.utp.pe.Diseno_Patrones.service.patron.singleton;
 
 import lombok.extern.slf4j.Slf4j;
 

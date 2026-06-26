@@ -1,4 +1,4 @@
-package edu.utp.pe.Diseno_Patrones.patron.decorator;
+package edu.utp.pe.Diseno_Patrones.service.patron.decorator;
 
 public class ProductoBase implements ProductoDecorator {
     private final String nombre;

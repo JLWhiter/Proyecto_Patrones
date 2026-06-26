@@ -1,4 +1,4 @@
-package edu.utp.pe.Diseno_Patrones.patron.factory;
+package edu.utp.pe.Diseno_Patrones.service.patron.factory;
 
 public class Factura implements Documento {
     @Override

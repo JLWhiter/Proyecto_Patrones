@@ -1,4 +1,4 @@
-package edu.utp.pe.Diseno_Patrones.patron.observer;
+package edu.utp.pe.Diseno_Patrones.service.patron.observer;
 
 import java.util.ArrayList;
 import java.util.List;

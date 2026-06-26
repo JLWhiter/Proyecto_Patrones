@@ -1,11 +1,11 @@
-package edu.utp.pe.Diseno_Patrones.patron.facade;
+package edu.utp.pe.Diseno_Patrones.service.patron.facade;
 
-import edu.utp.pe.Diseno_Patrones.patron.factory.DocumentoFactory;
-import edu.utp.pe.Diseno_Patrones.patron.observer.NotificacionAlmacen;
-import edu.utp.pe.Diseno_Patrones.patron.observer.NotificacionCliente;
-import edu.utp.pe.Diseno_Patrones.patron.observer.PedidoSubject;
-import edu.utp.pe.Diseno_Patrones.patron.strategy.MetodoPago;
-import edu.utp.pe.Diseno_Patrones.patron.strategy.ProcesadorPago;
+import edu.utp.pe.Diseno_Patrones.service.patron.factory.DocumentoFactory;
+import edu.utp.pe.Diseno_Patrones.service.patron.observer.NotificacionAlmacen;
+import edu.utp.pe.Diseno_Patrones.service.patron.observer.NotificacionCliente;
+import edu.utp.pe.Diseno_Patrones.service.patron.observer.PedidoSubject;
+import edu.utp.pe.Diseno_Patrones.service.patron.strategy.MetodoPago;
+import edu.utp.pe.Diseno_Patrones.service.patron.strategy.ProcesadorPago;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;

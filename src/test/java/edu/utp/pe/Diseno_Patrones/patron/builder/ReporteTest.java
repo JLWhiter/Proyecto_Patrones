@@ -1,5 +1,6 @@
 package edu.utp.pe.Diseno_Patrones.patron.builder;
 
+import edu.utp.pe.Diseno_Patrones.service.patron.builder.Reporte;
 import lombok.extern.slf4j.Slf4j;
 
 import org.junit.jupiter.api.Test;
